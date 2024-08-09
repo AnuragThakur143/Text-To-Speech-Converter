@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #afc4fd, #114eb7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 45px;
+}
+
+.hero span {
+    color: #f14848;
+    text-decoration: 4px underline white;
+}
+
+span:hover {
+    text-transform: uppercase;
+}
+
+textarea {
+    width: 700px;
+    height: 300px;
+    background: #5307b0b0;
+    color: #fff;
+    font-size: 16px;
+    border: 3px solid #5307b043;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI';
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+textarea::placeholder {
+    color: #fff;
+}
+
+.single-ln {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background: #f14848;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #dc0c0ceb;
+    border: 1px solid #fff;
+}
+
+button p {
+    padding-top: 5px;
+}
+
+button img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+select {
+    flex: 1;
+    color: #fff;
+    background: #413d84c2;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(down-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+    font-weight: lighter;
+}
+
+select:hover {
+    border: 0.5px solid #fff;
+}
+.copyright {
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: #114eb794;
+    font-family: 'Courier New';
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
